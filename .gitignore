@@ -1,0 +1,38 @@
+# ===== Python =====
+**/__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.o
+*.a
+*.egg
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# ===== 训练产物 (不适合上传：checkpoints / tensorboard / 日志) =====
+**/checkpoints/
+**/logs/
+*.pth
+*.pt
+*.ckpt
+events.out.tfevents.*
+tensorboard/
+
+# ===== 导出/可视化产物 =====
+ply_out/
+*.ply
+
+# ===== 数据/缓存 =====
+*.npy
+*.npz
+*.pkl
+*.h5
+.cache/
+
+# ===== 系统/编辑器 =====
+.DS_Store
+.idea/
+.vscode/
+*.swp
