@@ -189,7 +189,7 @@ sequenceDiagram
 
 | 方法 | CD(×1000) ↓ | DCD ↓ | F1 ↑ | best epoch |
 |------|-------------|-------|------|-----------|
-| PointSea (深度图) | 26.99 | 0.725 | 0.212 | 11 |
-| **Dense PointMap** | **18.72** | **0.677** | **0.318** | 25 |
+| PointSea (深度图) | 27.42 | 0.727 | 0.209 | 11 |
+| **Dense PointMap** | **18.74** | **0.677** | **0.318** | 26 |
 
-Dense PointMap 的 CD 低 31%、F1 高 50%，且泛化更稳定（PointSea 第 11 epoch 后过拟合）。
+Dense PointMap 的 CD 低约 32%、F1 高约 52%，且泛化更稳定（PointSea 第 11 epoch 后过拟合）。
